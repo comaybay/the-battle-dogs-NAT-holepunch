@@ -1,2 +1,2 @@
-import os
-os.system("python3 server.py 999")
+import subprocess
+subprocess.Popen("python3 server.py 999")
